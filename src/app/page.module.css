@@ -1,0 +1,703 @@
+.h1temp{
+  color: blue;
+
+}
+
+
+.drog{
+  width: 100px;
+  
+}
+
+/* Specific background for About Us page */
+.aboutUsBackground {
+    background-image: url('/pexels-lastly-1616516.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  padding-top: 20px; /* Optional: to add some padding from the top of the viewport */
+}
+
+.homepageBackground {
+  background-image: url('/836923.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Align content to the top */
+  padding-top: 80px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.countriesListBackground {
+  background-image: url('/CountriesListWallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Align content to the top */
+  padding-top: 80px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+/* Heading styling */
+.heading {
+  text-align: center;
+  margin-bottom: 10px; /* Reduced margin to bring it closer to the navbar */
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 20px;
+}
+
+/* Navigation bar styling up to navLink:hover */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+/* Logo styling */
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation links styling */
+.navLinks {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLink {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+
+/* Intro Textbox Styling */
+.introBox {
+  background-color: #f4f4f4; /* Light gray background for the text box */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+  width: 80%; /* Adjust width as needed */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Learn More Styling */
+.selectDestinationMessageBox {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 15px; /* Rounded corners */
+  width: 80%; /* Adjust width as needed */
+  margin-left: auto;
+  margin-right: auto;
+  color: white; /* Ensure text is white for readability */
+}
+
+
+/* Footer Styling */
+.footer {
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: white; /* Consistent text color */
+  position: relative;
+  bottom: 0;
+  width: 100%; /* Ensure it spans the full width of the container */
+  border-radius: 0 0 10px 10px; /* Rounded bottom corners for cohesion */
+}
+
+.OceaniaBackground {
+  background-image: url('/OceaniaBackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; /* Ensure it takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  padding-top: 80px; /* Padding from the top */
+  padding-bottom: 50px; /* Optional: for additional bottom padding */
+  position: relative;
+}
+
+.AsiaBackground {
+  background-image: url('/AsiaBackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; /* Ensure it takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  padding-top: 80px; /* Padding from the top */
+  padding-bottom: 50px; /* Optional: for additional bottom padding */
+  position: relative;
+}
+
+.NorthAmericaBackground {
+  background-image: url('/NorthAmericaBackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; /* Ensure it takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  padding-top: 80px; /* Padding from the top */
+  padding-bottom: 50px; /* Optional: for additional bottom padding */
+  position: relative;
+}
+
+.EuropeBackground {
+  background-image: url('/EuropeBackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; /* Ensure it takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  padding-top: 80px; /* Padding from the top */
+  padding-bottom: 50px; /* Optional: for additional bottom padding */
+  position: relative;
+}
+
+.AfricaBackground {
+  background-image: url('/AfricaBackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; /* Ensure it takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  padding-top: 80px; /* Padding from the top */
+  padding-bottom: 50px; /* Optional: for additional bottom padding */
+  position: relative;
+}
+
+.SouthAmericaBackground {
+  background-image: url('/SouthAmericaBackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; /* Ensure it takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  padding-top: 80px; /* Padding from the top */
+  padding-bottom: 50px; /* Optional: for additional bottom padding */
+  position: relative;
+}
+
+.subheading {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.continentGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin-top: 60px; /* Adjust spacing from subheading */
+  padding: 50px 20px 20px;
+  margin: 0 auto;
+  
+}
+
+.continentCard {
+  width: 15%;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.continentCard:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.continentImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 4px solid #ff9900;
+  border-radius: 12px 12px 0 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.continentCard h3 {
+  margin: 15px 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+.cityBackground {
+  background-image: url('/backgroundimg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Align content to the top */
+  padding-top: 80px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.cityGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.cityCard {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.cityCard:hover {
+  transform: translateY(-10px);
+}
+
+.cityImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: opacity 0.3s ease;
+}
+
+.cityCard h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.cityCard p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Country Display Styling */
+.countryDisplay {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal sections */
+  gap: 40px; /* Larger spacing between options */
+  max-width: 90%; /* Fit within navbar width */
+  margin: 0 auto;
+  padding: 10px;
+  align-items: center; /* Align items vertically */
+  height: 100%; /* Take full height of navbar */
+}
+
+/* Individual Country Card Styling */
+.countryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px; /* More rounded corners for cards */
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent dark background */
+  color: white; /* Ensure text is visible */
+  height: 90%; /* Fit neatly within grid cell */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  font-weight: bold;
+}
+
+/* Flag Image Styling */
+.countryCard img {
+  width: 85%; /* Adjust flag size */
+  max-width: 220px; /* Prevent flags from being too large */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Slight rounding for flags */
+  margin-bottom: 10px; /* Space below the flag */
+}
+
+/* Button Styling */
+.countryCard button {
+  font-size: 1.1rem; /* Slightly larger button text */
+  padding: 10px 20px; /* Bigger button size */
+  background-color: #007bff; /* Bright button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.countryCard button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .countryDisplay {
+    grid-template-columns: repeat(1, 1fr); /* Stack items vertically */
+    gap: 20px; /* Reduce gap for smaller screens */
+  }
+}
+
+/*Summary Page*/
+/* Add some margin to push the entire grid down */
+.summaryGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 equal columns */
+  grid-template-rows: auto auto auto; /* Rows for both left and right sections */
+  gap: 20px; /* Space between boxes */
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  margin-top: 20px; /* This will add a small gap between the navigation bar and the content */
+}
+
+/* Specific background for Summary page */
+.summaryBackground {
+  background-image: url('/summaryBackground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top instead of center */
+  padding-top: 40px; /* Reduced padding from the top */
+  padding-bottom: 30px; /* Reduced bottom padding */
+  position: relative;
+}
+
+/* Adjust the left column with larger boxes */
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.flightBooking, .hotelBooking {
+  background-color: #f4f4f4;
+  padding: 30px; /* Increased padding for larger boxes */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  min-height: 300px; /* Increased height for flightBooking and hotelBooking */
+}
+
+.flightBooking {
+  flex-grow: 1; /* Ensures flightBooking takes up remaining vertical space */
+}
+
+.hotelBooking {
+  flex-grow: 1; /* Ensures hotelBooking takes up remaining vertical space */
+}
+
+/* Adjust the right column with slightly larger boxes */
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paymentMethod, .summaryInformation, .confirmationDesicion {
+  background-color: #f4f4f4;
+  padding: 30px; /* Increased padding for larger boxes */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  min-height: 220px; /* Slightly increased height for paymentMethod, summaryInformation, confirmationDesicion */
+}
+
+/* Styling for the "Confirm" button */
+.confirmButton {
+  position: absolute;
+  bottom: 20px; /* Position button at the bottom of the box */
+  right: 20px; /* Position button on the right side */
+  padding: 12px 24px; /* Button size */
+  background-color: #28a745; /* Green color */
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.confirmButton:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarges the button */
+}
+
+/* Ensure flightBooking, hotelBooking, and confirmationDesicion have relative positioning 
+   to correctly position the button inside the box */
+.flightBooking, .hotelBooking, .confirmationDesicion {
+  position: relative; /* Needed to position the button inside the box */
+}
+
+/* Optional: Styling for the text inside the button */
+.confirmButton:focus {
+  outline: none; /* Remove outline on focus for a cleaner look */
+}
+
+/* Styling for the input fields */
+.paymentMethod input[type="text"], .paymentMethod input[type="number"], .paymentMethod input[type="password"] {
+  width: 100%;
+  padding: 6px; /* Reduced padding */
+  margin-bottom: 8px; /* Reduced margin */
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Slightly smaller border radius */
+  font-size: 0.85rem; /* Smaller font size */
+  background-color: #fff;
+}
+
+/* Styling for the payment method form fields */
+.payment-method-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Reduced space between inputs */
+}
+
+/* Flight Booking styles */
+.flightBooking {
+  margin: 20px 0;
+}
+
+/* Container for each flight item */
+.flightItem {
+  display: flex;
+  justify-content: space-between; /* Align text and button horizontally */
+  align-items: center; /* Align the button vertically relative to the text */
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+
+/* Flight information styling */
+.flightInfo {
+  flex: 1; /* Allow text to take up available space */
+}
+
+.flightInfo p {
+  margin: 5px 0; /* Add spacing between lines */
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5; /* Better line spacing for readability */
+}
+
+/* Select Flight button styling */
+.selectButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.selectButton:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Hotel Booking styles */
+.hotelBooking {
+  margin: 20px 0;
+}
+
+/* Container for each hotel item */
+.hotelItem {
+  display: flex;
+  justify-content: space-between; /* Align text and button horizontally */
+  align-items: center; /* Align the button vertically relative to the text */
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+
+/* Hotel information styling */
+.hotelInfo {
+  flex: 1; /* Allow text to take up available space */
+}
+
+.hotelInfo p {
+  margin: 5px 0; /* Add spacing between lines */
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5; /* Better line spacing for readability */
+}
+
+/* Select Hotel button styling */
+.selectButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.selectButton:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Flight Booking Form styles */
+.flightBooking {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flightBooking h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Form group for each input and button */
+.formGroup {
+  margin-bottom: 15px;
+}
+
+/* Input fields styling */
+.inputField {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+/* Input field focus styling */
+.inputField:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Submit button styling */
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for the submit button */
+.submitButton:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Restart Button Styling */
+.restartButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.restartButton:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
